@@ -13,7 +13,6 @@ public:
             return;
         }
         for(int i = nums.size()-1;i>index;i--){
-            cout<<"fadfs";
             if(nums[i] > nums[index]){
                 swap(nums[i],nums[index]);
                 break;
